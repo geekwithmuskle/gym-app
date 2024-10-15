@@ -1,0 +1,17 @@
+import React from 'react'
+
+type Props = {
+    children: React.ReactNode;
+}
+
+const Htext = ({ children }: Props) => {
+  return (
+    <div
+        className="basis-3/5 font-monserrat text-3xl font-bold"
+    > 
+    {children} 
+    </div>
+  )
+}
+
+export default Htext
